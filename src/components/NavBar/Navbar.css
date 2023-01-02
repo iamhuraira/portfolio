@@ -28,6 +28,7 @@
 }
 .n-button{
     flex:2;
+    width: 100px;
 }
 .n-list>ul{
     display: flex;
