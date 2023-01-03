@@ -24,7 +24,7 @@ const Intro = () => {
               <div className="i-icons">
                   <a href=''><img src={Github} alt="Github" /></a>
                   <a><img src={Linkedin} alt="Linkedin" /> </a>
-                  <a><img src={Instagram} alt="Instagram" /></a>
+                  {/* <a><img src={Instagram} alt="Instagram" /></a> */}
               </div>
          </div>
           <div className="i-right">
