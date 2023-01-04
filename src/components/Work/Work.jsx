@@ -4,6 +4,7 @@ import Upwork from '../../img/Upwork.png'
 import Fiverr from '../../img/fiverr.png'
 import Linkedin from '../../img/linkedwork.png'
 import Github from '../../img/githubwork.png' 
+import Facebook from '../../img/Facebook.png'
 const Work = () => {
   return (
       <div className="works">
@@ -18,10 +19,34 @@ const Work = () => {
                   I'm working with the latest technologies and frameworks. I'm also a great team player.
               </span>
               {/* <a href={resume} download> */}
-                  <button className="button s-button">Download CV</button>
+                  <button className="button s-button">Hire me</button>
               {/* </a> */}
               <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
           </div>
+          {/* Right Side */}
+          <div className="w-right">
+              <div className="w-mainCircle">
+                  <div className="w-secCircle">
+                      <img src={Upwork} alt="upwork" />
+                  </div>
+                  <div className="w-secCircle">
+                      <img src={Fiverr} alt="upwork" />
+                  </div>
+                  <div className="w-secCircle">
+                      <img src={Github} alt="upwork" />
+                  </div>
+                  <div className="w-secCircle">
+                      <img src={Facebook} alt="upwork" />
+                  </div>
+                  <div className="w-secCircle">
+                      <img src={Linkedin} alt="upwork" />
+                  </div>
+                  {/* Background Circles */}
+                  <div className="w-backCircle blueCircle"></div>
+                  <div className="w-backCircle yellowCircle"></div>
+              </div>
+        </div>
+
    </div>
   )
 }
