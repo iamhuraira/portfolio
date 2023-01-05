@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/NavBar/Navbar';
 import Intro from './components/intro/Intro';
 import Services from './components/Services/Services';
 import Experience from './components/Experience/Experience';
 import Work from './components/Work/Work';
+import Portfolio from './components/Portfolio/Portfolio';
 
 function App() {
     return ( 
@@ -14,7 +14,8 @@ function App() {
             <Intro />
             <Services />
             <Experience />
-            <Work/>
+            <Work />
+            <Portfolio/>
         </div>
     );
 }
