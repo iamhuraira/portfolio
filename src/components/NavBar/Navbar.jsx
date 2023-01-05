@@ -7,7 +7,6 @@ const Navbar = () => {
               <div className="n-name">
                   Huraira
               </div>
-              <span>toggle</span>
           </div>
           <div className="n-right">
               <div className="n-list">
