@@ -9,14 +9,14 @@ import 'swiper/css';
 
 const Portfolio = () => {
   return (
-      <div className="protfolio">
+      <div className="portfolio">
           {/* Heading */}
           <span>Recent Projects</span>
           <span>Portfolio</span>
          
           {/* Slider */}
           <Swiper
-              spaceBetween={30}
+             spaceBetween={30}
               slidesPerView={3}
               grabCursor={true}
               className="portfolio-slider"
