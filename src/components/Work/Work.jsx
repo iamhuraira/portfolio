@@ -5,7 +5,8 @@ import Fiverr from '../../img/fiverr.png'
 import Linkedin from '../../img/linkedwork.png'
 import Github from '../../img/githubwork.png' 
 import Facebook from '../../img/Facebook.png'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
+
 const Work = () => {
   return (
       <div className="works">
