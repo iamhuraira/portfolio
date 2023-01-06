@@ -39,16 +39,20 @@ const Intro = () => {
                   transition={transition}
                   src={glassesimoji} alt="" />
               <motion.div
-                  initial={{ left: '74%', top: '-4%' }}
-                  whileInView={{ left: '68%' }}
+                  initial={{ left: '74%', top: '-1%' }}
+                  whileInView={{ left: '65%' }}
                   transition={transition}
                   
                   style={{ top: '-1%', left: '65%' }}>
                   <FloatingDiv image={Crown} txt1={'MERN'} txt2={'Developer'} />
               </motion.div>
-              <div style={{ top: '17rem', left: '0' }}>
+              <motion.div
+                  initial={{ left: '9rem', top: '17rem' }}
+                  whileInView={{ left: '0rem' }}
+                  transition={transition}
+                  style={{ top: '17rem', left: '0' }}>
                   <FloatingDiv image={thumbup} txt1={'Raising Talent'} txt2={'Award'} />
-              </div>
+              </motion.div>
               {/* Blur Div */}
               <div className="blur" style={{ background: "rgb(238 210 255)" }}> </div>
               <div className="blur" style={{ background: "#C1f5ff", top: '17rem', width:'22rem' , height: '11rem', left : '-9rem'   }}> </div>

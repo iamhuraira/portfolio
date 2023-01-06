@@ -5,8 +5,10 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Humble from "../../img/humble.png";
 import Card from '../Card/Card';
 import resume from './Abu_Huraira_Resume.pdf'
+import {motion} from 'framer-motion'
 
 const Services = () => {
+    const transition = { duration: 1, type : 'spring'};
   return (
       <div className="services">
           {/* Left Side */}
@@ -25,21 +27,34 @@ const Services = () => {
           </div>
           {/* Right Side  */}
           <div className="cards" >
-              <div  style={{ left: '11rem ' }}>
+              <motion.div
+                  whileInView={{ left: '11rem' }}
+                  initial={{ left: '25rem' }}
+                  transition={transition}
+
+                  style={{ left: '11rem ' }}>
                   <Card emoji={HeartEmoji}
                       heading={'Front-End Developer'}
                       detail={'React, React Dom, Redux, Styled Components, MUI, Tailwind CSS, BootStrap'} />
-              </div>
-              <div style={{ top:'12rem', left: '-8rem' }}>
+              </motion.div>
+              <motion.div
+                  initial={{ left: '-25rem', top: '12rem' }}
+                  whileInView={{ left: '-8rem' }}
+                    transition={transition}
+                  style={{ top: '12rem', left: '-8rem' }}>
                   <Card emoji={Glasses}
                       heading={'Full-Stack Developer'}
                       detail={'TypeScript, JavaScript, React, Node, Express, Next, MongoDB, Mongoose'} />
-              </div>
-              <div style={{ left: '9rem ',top:'19rem'  }}>
+              </motion.div>
+              <motion.div
+                  whileInView={{ left: '9rem' }}
+                  initial={{ left: '30rem', top: '19rem' }}
+                  transition={transition}
+                  style={{ left: '9rem ', top: '19rem' }}>
                   <Card emoji={Humble}
                       heading={'Back-End Developer'}
                       detail={'Node, Firbase,MongoDB, Mongoose, Axios, Auth, Error Handling, Data Modeling, Middleware'} />
-              </div>
+              </motion.div>
 
           </div>
           <div className="blur s-blur2" style={{ background: 'var(--purple)' }}></div>
