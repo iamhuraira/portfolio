@@ -1,10 +1,30 @@
 .experience{
     display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+.experience .my{
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.experience .m{
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+   
+}
+.exp{
+    display: flex;
     align-items: center;
     justify-content: center;
     gap: 5rem;
     height: 30vh;
     margin-bottom: 8rem;
+    margin-top: 2rem;
 }
 .achievement{
     display: flex;

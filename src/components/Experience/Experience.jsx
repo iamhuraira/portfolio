@@ -3,9 +3,12 @@ import './Experience.css'
 const Experience = () => {
   return (
       <div className="experience" id='Experience'>
-              {/* Heading */}
-              <span>Recent Projects</span>
-              <span>Portfolio</span>
+          {/* Heading */}
+          <span className='my'>My Work Experience</span>
+          <span className='m'>Experience</span>
+
+          <div className="exp">
+              
           <div className="achievement">
               <div className="circle">1+</div>
               <span>years</span>
@@ -21,6 +24,7 @@ const Experience = () => {
               <span>companies</span>     
               <span>Work</span>     
          </div> 
+        </div> 
    </div>
   )
 }
