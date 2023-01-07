@@ -59,8 +59,8 @@
 }
 .w-backCircle{
     position: absolute;
-    height: 11rem;
-    width :11rem;
+    height: 13rem;
+    width :13rem;
     border-radius: 100%;
     z-index: -1;
 
@@ -68,10 +68,10 @@
 .blueCircle{
     background: #1949BB;
     top: 0rem;
-    left: 11rem;
+    left: 18rem;
 }
 .yellowCircle{
     background: #F5C32C;
     top: 8rem;
-    left: 11rem;
+    left: 18rem;
 }

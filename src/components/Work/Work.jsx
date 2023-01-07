@@ -49,9 +49,9 @@ const Work = () => {
                       <img src={Linkedin} alt="upwork" />
                   </div>
                   {/* Background Circles */}
+              </motion.div>
                   <div className="w-backCircle blueCircle"></div>
                   <div className="w-backCircle yellowCircle"></div>
-              </motion.div>
         </div>
 
    </div>
