@@ -4,14 +4,14 @@
         justify-content: center;
         flex-direction: column;
 }
-.experience .my{
+.experience .e-my{
     color: var(--black);
     font-size: 2rem;
     font-weight: bold;
 
 }
 
-.experience .m{
+.experience .e-m{
     color: var(--orange);
     font-size: 2.5rem;
     font-weight: bold;

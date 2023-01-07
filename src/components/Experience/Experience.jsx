@@ -4,8 +4,8 @@ const Experience = () => {
   return (
       <div className="experience" id='Experience'>
           {/* Heading */}
-          <span className='my'>My Work Experience</span>
-          <span className='m'>Experience</span>
+          <span className='e-my'>My Work Experience</span>
+          <span className='e-m'>Experience</span>
 
           <div className="exp">
               
