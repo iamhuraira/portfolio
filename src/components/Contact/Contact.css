@@ -36,3 +36,8 @@ textarea{
     top: 1rem;
     left: 8rem;
 }
+.send-b{
+    width: 150px;
+    cursor: pointer !important;
+    font-size: 1.2rem;
+}
