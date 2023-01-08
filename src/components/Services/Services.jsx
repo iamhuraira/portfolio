@@ -35,7 +35,10 @@ const Services = () => {
                   style={{ left: '11rem ' }}>
                   <Card emoji={HeartEmoji}
                       heading={'Front-End Developer'}
-                      detail={'React, React Dom, Redux, Styled Components, MUI, Tailwind CSS, BootStrap'} />
+                      detail={'React, React Dom, Redux, Styled Components, MUI, Tailwind CSS, BootStrap'}
+                      link={'https://www.upwork.com/freelancers/~018cce8136a7030f16?s=1110580755057594368'}
+                      
+                  />
               </motion.div>
               <motion.div
                   initial={{ left: '-25rem', top: '12rem' }}
@@ -44,7 +47,9 @@ const Services = () => {
                   style={{ top: '12rem', left: '-8rem' }}>
                   <Card emoji={Glasses}
                       heading={'Full-Stack Developer'}
-                      detail={'TypeScript, JavaScript, React, Node, Express, Next, MongoDB, Mongoose'} />
+                      detail={'TypeScript, JavaScript, React, Node, Express, Next, MongoDB, Mongoose'} 
+                      link={'https://www.upwork.com/freelancers/~018cce8136a7030f16'}
+                      />
               </motion.div>
               <motion.div
                   whileInView={{ left: '9rem' }}
@@ -53,7 +58,9 @@ const Services = () => {
                   style={{ left: '9rem ', top: '19rem' }}>
                   <Card emoji={Humble}
                       heading={'Back-End Developer'}
-                      detail={'Node, Firbase,MongoDB, Mongoose, Axios, Auth, Error Handling, Data Modeling, Middleware'} />
+                      detail={'Node, Firbase,MongoDB, Mongoose, Axios, Auth, Error Handling, Data Modeling, Middleware'}
+                      link={'https://www.upwork.com/freelancers/~018cce8136a7030f16?s=1110580748673863680'}
+                  />
               </motion.div>
 
           </div>

@@ -54,7 +54,7 @@
     box-shadow: var(--smboxShadow);
     background: white;
 }
-.w-secCircle > img{
+.w-secCircle > a > img{
     transform: scale(0.6);
 }
 .w-backCircle{

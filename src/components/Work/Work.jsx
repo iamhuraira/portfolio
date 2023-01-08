@@ -21,7 +21,9 @@ const Work = () => {
                   I'm working with the latest technologies and frameworks. I'm also a great team player.
               </span>
               {/* <a href={resume} download> */}
+              <a href='https://www.upwork.com/freelancers/~018cce8136a7030f16' target='_blank'>
                   <button className="button s-button">Hire me</button>
+              </a>
               {/* </a> */}
               <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
           </div>
@@ -34,19 +36,29 @@ const Work = () => {
                   transition={{ duration: 3.5, type: "spring" }}
               className="w-mainCircle">
                   <div className="w-secCircle">
+                      <a href='https://www.upwork.com/freelancers/~018cce8136a7030f16' target='_blank'>
                       <img src={Upwork} alt="upwork" />
+                      </a>
                   </div>
                   <div className="w-secCircle">
-                      <img src={Fiverr} alt="upwork" />
+                      <a href='https://www.fiverr.com/huraira429' target='_blank'>
+                      <img src={Fiverr} alt="Fiver" />
+                      </a>
                   </div>
                   <div className="w-secCircle">
-                      <img src={Github} alt="upwork" />
+                      <a href='https://github.com/iamhuraira' target='_blank'>
+                      <img src={Github} alt="Github" />
+                      </a>
                   </div>
                   <div className="w-secCircle">
-                      <img src={Facebook} alt="upwork" />
+                      <a href='https://web.facebook.com/hurairaarrain2/' target='_blank'>
+                      <img src={Facebook} alt="Facebook" />
+                      </a>
                   </div>
                   <div className="w-secCircle">
-                      <img src={Linkedin} alt="upwork" />
+                      <a href='https://www.linkedin.com/in/iamhuraira/' target='_blank'>
+                      <img src={Linkedin} alt="LinkedIn" />
+                      </a>
                   </div>
                   {/* Background Circles */}
               </motion.div>

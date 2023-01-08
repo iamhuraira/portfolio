@@ -5,6 +5,10 @@ import Sidebar from "../../img/sidebar.png"
 import Ecommerce from "../../img/ecommerce.png"
 import HOC from "../../img/hoc.png"
 import MusicApp from "../../img/musicapp.png"
+import Food from "../../img/food.png"
+import Netflix from "../../img/netflix.png"
+import cofena from "../../img/cofeena.png"
+import portfolio from "../../img/portfolio.png"
 import 'swiper/css';
 
 const Portfolio = () => {
@@ -16,13 +20,22 @@ const Portfolio = () => {
          
           {/* Slider */}
           <Swiper
-             spaceBetween={30}
+             spaceBetween={-100}
               slidesPerView={3}
               grabCursor={true}
               className="portfolio-slider"
           >
               <SwiperSlide>
-                  <img src={Sidebar} alt=""/>
+                  <img src={portfolio} alt=""/>
+              </SwiperSlide>
+              <SwiperSlide>
+                  <img src={Food} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                  <img src={Netflix} alt="" />
+              </SwiperSlide>
+              <SwiperSlide>
+                  <img src={cofena} alt="" />
               </SwiperSlide>
               <SwiperSlide>
                   <img src={Ecommerce} alt="" />
