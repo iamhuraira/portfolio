@@ -24,11 +24,15 @@
     color: var(--gray);
     font-size: 1rem;
     margin-top: 1rem;
+    width: 60%;
 }
 .s-button{
-    width: 8rem;
-    height: 2rem;
+   width: 10rem;    
     margin-top: 1rem;
+}
+.s-button>a{
+    text-decoration: none;
+    color: var(--white);
 }
 .cards{
     position: relative;
@@ -48,7 +52,28 @@
     .services{
        
         flex-direction: column;
-       margin-top: 0;
+        margin-top: 0;
+        padding: 0;
+        gap: 5rem;
+        height: 66rem;
+
 
     }
+        .s-button{
+        margin-top: 2rem;
+        }
+        .awesome> :nth-child(3) {
+            width: 100%;
+        }
+        .cards>*  {
+        position: static;
+     }
+     .cards{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 19rem;
+     }
+     .div2{
+        order: 1;
+     }
 }

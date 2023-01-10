@@ -17,22 +17,22 @@ const Services = () => {
               <span>services</span>
               <span>
                   I am highly proficient in React development and also have a great amount of expertise in
-                  <br />
+    
                   developing the Backend using Node.JS, Mongo, SQL.
               </span>
-              <a href={resume} download> 
-              <button className="button s-button">Download CV</button>
-              </a>
+             
+              <button className="button s-button"> <a href={resume} download> Download CV  </a> </button>
+            
               <div className="blur s-blur1" style={{background:'#ABF1FF94'}}></div>
           </div>
           {/* Right Side  */}
-          <div className="cards" >
+          <div className=" cards" >
               <motion.div
-                  whileInView={{ left: '11rem' }}
-                  initial={{ left: '25rem' }}
+                  whileInView={{ left: '-10rem' }}
+                  initial={{ left: '3rem' }}
                   transition={transition}
 
-                  style={{ left: '11rem ' }}>
+                  style={{ left: '-10rem ' }}>
                   <Card emoji={HeartEmoji}
                       heading={'Front-End Developer'}
                       detail={'React, React Dom, Redux, Styled Components, MUI, Tailwind CSS, BootStrap'}
@@ -41,10 +41,12 @@ const Services = () => {
                   />
               </motion.div>
               <motion.div
-                  initial={{ left: '-25rem', top: '12rem' }}
-                  whileInView={{ left: '-8rem' }}
+                  initial={{ left: '-43rem', top: '12rem' }}
+                  whileInView={{ left: '-30rem' }}
                     transition={transition}
-                  style={{ top: '12rem', left: '-8rem' }}>
+                  style={{ top: '12rem', left: '-30rem' }}
+              className='div2'
+              >
                   <Card emoji={Glasses}
                       heading={'Full-Stack Developer'}
                       detail={'TypeScript, JavaScript, React, Node, Express, Next, MongoDB, Mongoose'} 
@@ -52,10 +54,10 @@ const Services = () => {
                       />
               </motion.div>
               <motion.div
-                  whileInView={{ left: '9rem' }}
-                  initial={{ left: '30rem', top: '19rem' }}
+                  whileInView={{ left: '-13rem' }}
+                  initial={{ left: '-2rem', top: '19rem' }}
                   transition={transition}
-                  style={{ left: '9rem ', top: '19rem' }}>
+                  style={{ left: '-30rem ', top: '19rem' }}>
                   <Card emoji={Humble}
                       heading={'Back-End Developer'}
                       detail={'Node, Firbase,MongoDB, Mongoose, Axios, Auth, Error Handling, Data Modeling, Middleware'}
