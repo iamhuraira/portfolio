@@ -140,5 +140,6 @@
      
         .i-right>:nth-child(4){
             left: 0rem !important;
+            transform: scale(0.4);
         }
 }
