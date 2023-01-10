@@ -10,20 +10,16 @@ import { motion } from 'framer-motion'
 const Work = () => {
   return (
       <div className="works">
-          <div className="awesome">
+          <div className="awesome w-awesome">
               <span>Works for All these</span>
               <span>Brands & Clients</span>
-              <span>
-                  I'm highly proficient in React development and also have a great amount of expertise in
-                  <br />
-                  developing Backend using Node.JS, Mongo, SQL.
-                  <br />
-                  I'm working with the latest technologies and frameworks. I'm also a great team player.
+              <span className='work1'>
+                  I'm highly proficient in React development and also have a great amount of expertise in developing Backend using Node.JS, Mongo, SQL. I'm working with the latest technologies and frameworks. I'm also a great team player.
               </span>
               {/* <a href={resume} download> */}
-              <a href='https://www.upwork.com/freelancers/~018cce8136a7030f16' target='_blank'>
-                  <button className="button s-button">Hire me</button>
-              </a>
+            
+              <button className="button s-button">   <a href='https://www.upwork.com/freelancers/~018cce8136a7030f16' target='_blank'>Hire me  </a> </button>
+        
               {/* </a> */}
               <div className="blur s-blur1" style={{ background: '#ABF1FF94' }}></div>
           </div>

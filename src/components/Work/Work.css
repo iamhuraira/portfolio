@@ -1,14 +1,20 @@
 .works{
     padding: 0 3rem 0 3rem ;
     display: flex;
-    height: 90vh;
-    margin-top: 4rem;
+    height: 70vh;
+    margin-top: 2rem;
 }
 .w-right{
     position: relative;
 }
+.work1{
+    width: 68% !important;
+}
+.w-awesome{
+    gap: 0.3rem;
+}
 .w-mainCircle{
-    left: 9rem;
+    left: -2rem;
     position: relative;
     width: 18rem;
     height: 18rem;
@@ -67,11 +73,11 @@
 }
 .blueCircle{
     background: #1949BB;
-    top: 0rem;
-    left: 18rem;
+    top: 01rem;
+    left: 6.8rem;
 }
 .yellowCircle{
     background: #F5C32C;
     top: 8rem;
-    left: 18rem;
+    left: 6.8rem;
 }
