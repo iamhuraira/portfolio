@@ -16,3 +16,19 @@
     font-family: sans-serif;
     font-size: 1rem;
 }
+@media screen and (max-width:480px) {
+    .floatingdiv{
+        width: 12rem;
+        justify-content: start;
+    }
+    .floatingdiv>span{
+        font-size: 15px;
+        font-weight: bold;
+        }
+                 .floatingdiv>img {
+                     transform: scale(0.3);
+        
+                 }
+    }
+       
+        

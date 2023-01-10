@@ -45,14 +45,17 @@ const Intro = () => {
                   whileInView={{ left: '65%' }}
                   transition={transition}
                   
-                  style={{ top: '-1%', left: '65%' }}>
-                  <FloatingDiv image={Crown} txt1={'MERN'} txt2={'Developer'} />
+                  style={{ top: '-1%', left: '65%' }}
+                className='floating-div'
+              >
+                  <FloatingDiv image={Crown} txt1={'MERN Stack'} txt2={'Developer'} />
               </motion.div>
               <motion.div
                   initial={{ left: '9rem', top: '17rem' }}
                   whileInView={{ left: '0rem' }}
                   transition={transition}
-                  style={{ top: '17rem', left: '0' }}>
+                  style={{ top: '17rem', left: '0' }}
+                  className='floating-div'>
                   <FloatingDiv image={thumbup} txt1={'Raising Talent'} txt2={'Award'} />
               </motion.div>
               {/* Blur Div */}
