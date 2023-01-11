@@ -81,3 +81,27 @@
     top: 8rem;
     left: 6.8rem;
 }
+
+@media screen and (max-width:480px) {
+    .works{
+            height: 46rem;
+                padding: 0;
+                flex-direction: column;
+                transform: scale(0.9);
+            
+    }
+    .w-awesome>:nth-child(1){
+        font-size: 2rem;
+    }
+    .w-awesome>:nth-child(2){
+        font-size: 2.4rem;
+    }
+    .work1{
+        width: 100% !important;
+    }
+    .w-right{
+        margin-top: 2rem;
+        transform: scale(0.75);
+            left: 0.7rem;
+    }
+}
