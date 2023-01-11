@@ -46,7 +46,7 @@
    .n-list{
     display: none  ;
    }
-   .n-button{
-    display: none;
-   }
+ .n-right{
+        justify-content: flex-end;
+ }
 }
