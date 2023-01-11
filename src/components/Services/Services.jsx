@@ -12,7 +12,7 @@ const Services = () => {
   return (
       <div className="services" id='Services'>
           {/* Left Side */}
-          <div className="awesome">
+          <div className="awesome mobile">
               <span>My Awesome</span>
               <span>services</span>
               <span>
