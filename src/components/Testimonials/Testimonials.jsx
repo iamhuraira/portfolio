@@ -17,7 +17,7 @@ const Testimonials = () => {
             img: profilepic1,
             name: "Emma Doe",
             review:
-                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod",
         },
          {
              img: profilepic2,
@@ -64,6 +64,7 @@ const Testimonials = () => {
           <Swiper
               modules={[Pagination]}
               slidesPerView={1}
+              spaceBetween={20}
               pagination={{clickable: true}}
           >
               {
