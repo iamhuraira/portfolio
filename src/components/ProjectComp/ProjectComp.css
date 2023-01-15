@@ -1,0 +1,69 @@
+.project {
+    /* width: 16rem; */
+    height: 10rem;
+    /* background-color: red; */
+    /* border: 1px solid green; */
+    margin: 10px;
+    border-radius: 20px;
+  
+
+
+}
+
+.imageDiv {
+    width: 14rem;
+    height: 9.7rem;
+    margin: 2px auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.imageDiv img {
+    object-fit: cover !important;
+    transition: all 0.5s ease-in-out;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+
+
+.livelink {
+    position: absolute;
+    left: 0;
+    bottom: -10rem;
+    width: 13rem;
+    /* background-color: blue; */
+    text-align: left;
+    padding: 0.3rem 0.5rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.100), rgba(0, 0, 0, 0.80));
+    transition: all 0.5s ease-in-out;
+   
+}
+
+.livelink span {
+    font-size: 0.9rem !important;
+    font-weight: 300 !important;
+    text-decoration: none;
+    color: white !important;
+}
+
+.livelink a {
+    color: var(--orange);
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+    text-decoration: none;
+    margin-left: 5px;
+
+}
+
+:hover > .imageDiv img {
+    transform: scale(1.3);
+
+}
+
+:hover> .imageDiv .livelink {
+    bottom: 0rem;
+}

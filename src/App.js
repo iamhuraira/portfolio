@@ -11,6 +11,7 @@ import Footer from './components/Footer/Footer';
 import PortfolioUpdated from './components/PortfolioUpdated/PortfolioUpdated';
 
 
+
 function App() {
     return ( 
         <div className = "App" >
