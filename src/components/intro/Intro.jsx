@@ -20,7 +20,7 @@ const Intro = () => {
               <div className="i-name">
                   <span>  Hy! I am </span>
                   <span>Abu Huraira</span>
-                  <span>MERN Stack Developer with high level of expereance in web development and producing the Quality work</span>
+                  <span>MERN Stack Developer with high level of experience in web development and producing the Quality work</span>
               </div>
               <a  href='https://www.upwork.com/freelancers/~018cce8136a7030f16' target='_blank'>  
               <button className=" button i-button">Hire Me</button>
