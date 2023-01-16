@@ -35,6 +35,13 @@
 @media screen and (max-width : 480px) {
     .App{
         padding: 0.5rem 1rem;
-       
+
+    }
+}
+@media screen and (min-width : 780px) {
+    .App {
+        padding: 1.5rem 2.5rem;
+ 
+
     }
 }
