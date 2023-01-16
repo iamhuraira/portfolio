@@ -12,6 +12,7 @@ import cofena from "../../img/cofeena.png"
 import portfolio from "../../img/portfolio.png"
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import styled from 'styled-components';
+import TestSlider from '../TestSlider/TestSlider';
 
 const SliderComp = () => {
   const arrowRef = useRef(null);
@@ -100,7 +101,8 @@ const SliderComp = () => {
   };
    let sliderproject = "";
   sliderproject = data.map((item, index) => (
-    <ProjectComp item={item} key={index} />
+      <TestSlider item={item} key={index} />
+    // <ProjectComp item={item} key={index} />
     // console.log(item);
   ));
   return (
