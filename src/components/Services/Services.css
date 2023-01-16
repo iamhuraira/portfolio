@@ -102,3 +102,48 @@
         order: 1;
     }
 }
+@media screen and (min-width : 480px) and (max-width: 800px) {
+    .services {
+            position: relative;
+            flex-direction: column;
+            margin-top: 2rem;
+            padding: 0;
+            gap: 4rem;
+            height: 49rem;
+    
+    
+        }
+    
+        .s-button {
+            margin-top: 2rem;
+        }
+    
+        .awesome> :nth-child(1) {
+            font-size: 2.5rem;
+        }
+    
+        .awesome> :nth-child(2) {
+            font-size: 2.5rem;
+        }
+    
+        .awesome> :nth-child(3) {
+            width: 100%;
+        }
+    
+        .cards>* {
+            position: static;
+        }
+    
+        .cards {
+            display: flex;
+            flex-direction:row;
+            flex-flow: wrap;
+            justify-content: center;
+            gap: 19rem;
+            left: -7rem
+        }
+    
+        .div2 {
+            order: 1;
+        }
+}

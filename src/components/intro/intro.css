@@ -113,7 +113,8 @@
         gap: 2rem;
         margin-top: 3rem;
     }
-    .i-name{
+
+    .i-name {
         gap: 0.3rem;
     }
 
@@ -125,63 +126,68 @@
     .i-right .blur {
         display: none;
     }
-  .i-icons{
+
+    .i-icons {
         margin-top: 0rem !important;
     }
-         .floating-div{
-            transform: scale(0.8);
-         }
+
+    .floating-div {
+        transform: scale(0.8);
+    }
+
     .floating-div:nth-of-type(1) {
         top: -6.5rem !important;
         left: 13.5rem !important
     }
 
     .floating-div:nth-of-type(2) {
-      
+
         left: 3rem !important
     }
-     
-        .i-right>:nth-child(4){
-            left: 0rem !important;
-            transform: scale(0.4);
-        }
-        .i-name>:nth-child(1) {
-           
-            font-size: 2.3rem;
-        }
-    
-        .i-name>:nth-child(2) {
-            font-size: 2.3rem;
-        }
+
+    .i-right>:nth-child(4) {
+        left: 0rem !important;
+        transform: scale(0.4);
+    }
+
+    .i-name>:nth-child(1) {
+
+        font-size: 2.3rem;
+    }
+
+    .i-name>:nth-child(2) {
+        font-size: 2.3rem;
+    }
 }
 
 
 @media screen and (min-width : 480px) and (max-width: 800px) {
 
-.intro {
-    
+    .intro {
+
         margin-top: 2.5rem;
     }
 
 
     .i-name>:nth-child(1) {
-       
+
         font-size: 2.3rem;
     }
 
     .i-name>:nth-child(2) {
-      
+
         font-size: 2.3rem;
     }
 
     .i-name>:nth-child(3) {
         font-size: 0.8rem;
-       
+
     }
-        .i-button {
-            width: 6rem;
-            height: 2.5rem;
-        }
+
+    .i-button {
+        width: 6rem;
+        height: 2.5rem;
+    }
 
 
     .i-icons {
@@ -192,7 +198,7 @@
         transform: scale(0.6);
     }
 
-   
+
 
     .i-right>:nth-child(1) {
         transform: scale(0.59);
@@ -203,7 +209,7 @@
     .i-right>:nth-child(2) {
         transform: scale(0.4);
         top: -6.5rem;
-        left:-10rem;
+        left: -10rem;
     }
 
     .i-right>:nth-child(3) {
@@ -220,20 +226,30 @@
         padding: 0;
 
     }
-           .floating-div {
-               transform: scale(0.6);
-                width: 14rem;
-           }
-    
-           .floating-div:nth-of-type(1) {
-                top: -2.5rem !important;
-                    left: 6.5rem !important;
-           }
-    
-           .floating-div:nth-of-type(2) {
-    
-               left: -2rem !important
-           }
 
-    
+    .floating-div {
+        transform: scale(0.6);
+        width: 14rem;
+    }
+
+    .floating-div:nth-of-type(1) {
+        top: -2.5rem !important;
+        left: 6.5rem !important;
+    }
+
+    .floating-div:nth-of-type(2) {
+
+        left: -2rem !important
+    }
+
+    .blur {
+
+       transform: scale(0.6);
+     
+    }
+    .b-2{
+        top: 12rem !important;
+    }
+
+
 }
