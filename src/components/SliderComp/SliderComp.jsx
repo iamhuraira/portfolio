@@ -2,14 +2,17 @@ import React, { useRef } from 'react'
 import Slider from 'react-slick';
 import ProjectComp from '../ProjectComp/ProjectComp';
 import './Slidercomp.css'
-import Sidebar from "../../img/sidebar.png"
-import Ecommerce from "../../img/ecommerce.png"
-import HOC from "../../img/hoc.png"
-import MusicApp from "../../img/musicapp.png"
-import Food from "../../img/food.png"
-import Netflix from "../../img/netflix.png"
-import cofena from "../../img/cofeena.png"
-import portfolio from "../../img/portfolio.png"
+// import Sidebar from "../../img/sidebar.png"
+// import Ecommerce from "../../img/ecommerce.png"
+// import HOC from "../../img/hoc.png"
+// import MusicApp from "../../img/musicapp.png"
+// import Food from "../../img/food.png"
+// import Netflix from "../../img/netflix.png"
+// import cofena from "../../img/cofeena.png"
+import portfolio from "../../img/cv.png"
+import ec from "../../img/ec.jpg"
+import eco from "../../img/eco.png"
+import ecoo from "../../img/ecoo.png"
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io'
 import styled from 'styled-components';
 import TestSlider from '../TestSlider/TestSlider';
@@ -23,41 +26,31 @@ const SliderComp = () => {
       link:''
     },
     {
-      img: Netflix,
+      img: ec,
       disc: 'Netflix Clone',
       link: ''
     },
     {
-      img: Food,
+      img: eco,
       disc: 'Food Delivery Web App',
       link: ''
     },
     {
-      img: cofena,
+      img: ecoo,
       disc: 'Cofena Website',
       link: ''
     },
    
-    {
+  /*   {
       img: Ecommerce,
       disc: 'Testing Website',
-      link: ''
-    },
-    {
-      img: Sidebar,
-      disc: 'Testing  Website',
-      link: ''
-    },
-    {
-      img: MusicApp,
-      disc: 'Testing Music App',
       link: ''
     },
     {
       img: HOC,
       disc: 'HOC Testing Image',
       link: ''
-    }
+    } */
   ]
   var settings = {
     className: "center",
@@ -83,9 +76,9 @@ const SliderComp = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 0,
            centerMode: false
         }
       },
@@ -141,5 +134,9 @@ border-radius: 50%;
 }
 .back{
   left : -28.5rem;
+  @media screen and (min-width: 320px )  and (max-width: 480px){
+    left : -8.3rem;
+  }
 }
+
 `

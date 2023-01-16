@@ -38,7 +38,7 @@
  
 }
 :hover>.imageDiv img {
-    top: -43rem;
+   transform: translateY(-70%);
 
 }
 
@@ -79,3 +79,21 @@
 :hover> .imageDiv .livelink {
     bottom: 0rem;
 }
+
+
+@media screen and (min-width: 320px )  and (max-width: 480px) {
+    .project {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .imageDiv {
+        width: 100%;
+        height: 100%;
+    }
+    .livelink {
+        width: 100%;
+      
+    }
+}
+    

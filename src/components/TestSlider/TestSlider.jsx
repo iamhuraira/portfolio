@@ -17,7 +17,7 @@ const TestSlider = (props) => {
     return (
         <div className="project projectClass">
             <div className="imageDiv  "  style={{height : '10rem'}}>
-                <img src={cv} alt=""   />
+                <img src={img} alt=""   />
                 <div className="livelink">
                     <span className='p-name'>
                         {disc}: <a href={link}>

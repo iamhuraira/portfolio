@@ -105,3 +105,9 @@
             left: 0.7rem;
     }
 }
+@media screen and (max-width: 400px) {
+
+    .experience .e-my {
+        font-size: 1.7rem;
+    }
+}
