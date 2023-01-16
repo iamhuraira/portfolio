@@ -66,7 +66,17 @@ const SliderComp = () => {
       {
         breakpoint: 990,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          centerMode: false,
+          dots: false
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           centerMode: false,
@@ -131,11 +141,17 @@ border-radius: 50%;
 }
 .next{
   right : -1rem;
+  @media screen and (min-width : 480px) and (max-width: 800px) {
+    right : 2rem;
+  }
 }
 .back{
   left : -28.5rem;
   @media screen and (min-width: 320px )  and (max-width: 480px){
     left : -8.3rem;
+  }
+  @media screen and (min-width : 480px) and (max-width: 800px) {
+     left : -13.5rem;
   }
 }
 

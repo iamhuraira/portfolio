@@ -131,8 +131,8 @@
         }
     
         .w-right {
-            margin-top: 5rem;
-            transform: scale(1.1);
+            margin-top: 4rem;
+            transform: scale(1);
             left: 10.5rem;
         }
 }
