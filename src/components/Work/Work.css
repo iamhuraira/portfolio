@@ -41,10 +41,10 @@
 }
 .w-mainCircle> :nth-child(4) {
     top: 5rem;
-    left: 15rem;
+    left: 14rem;
 }
 .w-mainCircle> :nth-child(5) {
-    top: 13rem;
+    top: 14rem;
     left: 6rem;
 }
 .w-secCircle{
@@ -74,12 +74,12 @@
 .blueCircle{
     background: #1949BB;
     top: 01rem;
-    left: 6.8rem;
+    left: 5.8rem;
 }
 .yellowCircle{
     background: #F5C32C;
     top: 8rem;
-    left: 6.8rem;
+    left: 5.8rem;
 }
 
 @media screen and (max-width:480px) {
@@ -110,4 +110,29 @@
     .experience .e-my {
         font-size: 1.7rem;
     }
+}
+@media screen and (min-width : 480px) and (max-width: 800px){
+    .works {
+            height: 46rem;
+            padding: 0;
+            flex-direction: column;
+        }
+    
+        .w-awesome>:nth-child(1) {
+            font-size: 2.5rem;
+        }
+    
+        .w-awesome>:nth-child(2) {
+            font-size: 2.5rem;
+        }
+    
+        .work1 {
+            width: 100% !important;
+        }
+    
+        .w-right {
+            margin-top: 5rem;
+            transform: scale(1.1);
+            left: 10.5rem;
+        }
 }
