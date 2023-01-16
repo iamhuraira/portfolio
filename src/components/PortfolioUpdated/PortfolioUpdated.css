@@ -1,5 +1,5 @@
 .portfolio-container {
-    width: 90vw;
+    width: 80%;
     max-width: 1280px;
     margin: 0 auto;
     padding: 3rem 0;
@@ -8,11 +8,20 @@
 
 
 }
+@media screen and (max-width: 840px) {
+    .portfolio-container {
+        width: 90%;
+    }
+}
+    
+
 .flexsp{
     display: flex;
     flex-direction: column;
 }
-
+/* .slide-p{
+    margin-top: 2rem;
+} */
 
 .portfolio-container span:nth-of-type(1) {
     color: var(--black);

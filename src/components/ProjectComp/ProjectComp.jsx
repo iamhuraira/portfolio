@@ -7,22 +7,22 @@ import Food from "../../img/food.png"
 import Netflix from "../../img/netflix.png"
 import cofena from "../../img/cofeena.png"
 import portfolio from "../../img/portfolio.png"
+import cv from "../../img/cv.png"
 import './ProjectComp.css'
 
 const ProjectComp = (props) => {
     const { img, disc, link } = props.item;
+
     return (
-        <div className="project">
+        <div className="project projectClass">
             <div className="imageDiv">
-                <img src={img} alt="" style={{ width: '100%', height: '100%' }} />
+                <img src={cv} alt="" width={100}  />
                 <div className="livelink">
                     <span className='p-name'>
                         {disc}: <a href={link}>
                             Demo
                         </a>
                     </span>
-
-
                 </div>
             </div>
         </div>

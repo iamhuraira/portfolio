@@ -1,17 +1,42 @@
 .project {
-    /* width: 16rem; */
+
+
+    width: 16rem;
+    /* background-color: #4e5156; */
+    margin: 0 0.5rem;
+    padding: 0 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+/*     
+     width: 20rem;
     height: 10rem;
-    /* background-color: red; */
-    /* border: 1px solid green; */
+    background-color: red;
+    border: 1px solid green;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 20px;  */
   
 
 
 }
+.imageDiv{
+    /* width: 10rem; */
+    /* background-color: #4e5156; */
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.imageDiv  img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    transition: all 0.5s ease-in-out;
+ 
+}
 
-.imageDiv {
-    width: 14rem;
+/* .imageDiv {
+    width: 20rem;
     height: 9.7rem;
     margin: 2px auto;
     overflow: hidden;
@@ -22,19 +47,20 @@
 .imageDiv img {
     object-fit: cover !important;
     transition: all 0.5s ease-in-out;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 
-}
+} */
 
 
 
 .livelink {
     position: absolute;
     left: 0;
-    bottom: -10rem;
-    width: 13rem;
+    bottom: -4rem;
+    /* width: 100%; */
+    width: 15rem;
     /* background-color: blue; */
     text-align: left;
     padding: 0.3rem 0.5rem;
@@ -44,7 +70,7 @@
 }
 
 .livelink span {
-    font-size: 0.9rem !important;
+    font-size: 0.8rem !important;
     font-weight: 300 !important;
     text-decoration: none;
     color: white !important;
@@ -52,7 +78,7 @@
 
 .livelink a {
     color: var(--orange);
-    font-size: 0.9rem !important;
+    font-size: 0.8rem !important;
     font-weight: 500 !important;
     text-decoration: none;
     margin-left: 5px;
