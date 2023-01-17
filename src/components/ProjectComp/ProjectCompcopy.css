@@ -41,7 +41,7 @@
 }
 
 :hover>.imageDiv img {
-    transform: translateY(-70%);
+     transform: translateY(calc(10rem - 100%));
 
 }
 
